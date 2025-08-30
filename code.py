@@ -24,6 +24,6 @@ server.start()
 
 while True:
     try:
-        server.poll()  # Process incoming requests
+        server.poll()
     except Exception as e:
         print("Error:", e)
